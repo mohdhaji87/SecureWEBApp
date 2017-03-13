@@ -1,8 +1,12 @@
 # SecureWEBApp
 Coded a secure web application for learning purpose.. 
+
 Removing all the vulnerabilities present in https://github.com/mohdhaji87/VulnerableWEBApp .
-This application has eliminated following vulnerabilities making secure php application 
-Try all these issues you will not able to exploit it...
+
+This application has eliminated vulnerabilities making secure php application 
+
+Try all the attacks of vulnerable application you will not able to exploit it...
+
 
 --> SQLI (Select , Update , Insert, Delete)
 [select SQLI in login bypass mysqli_real_escape_string() is used]
