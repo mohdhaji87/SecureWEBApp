@@ -24,6 +24,9 @@ Username: <input type="text" name="username" value=""> </br>
 Password: <input type="password" name="passwd" value=""></br>
 <input type="submit" name="login" value="login">
 </form>
+
+</br>
+<a href="forgotpassword.html" >Forgot Password </a>
 </body>
 </html>
 
