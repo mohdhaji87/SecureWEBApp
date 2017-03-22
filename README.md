@@ -30,3 +30,6 @@ Try all the attacks of vulnerable application you will not able to exploit it...
 
 -->XSS
 [ user input enconding/sanitizaion . output also encoded with htmlentities() which is not prone to xss ]
+
+-->Local File Inclusion (LFI) : (While including TOS file)
+(Null byte may be used as bypass . We need to use whitelisting for complete elimination of vulnerability)
