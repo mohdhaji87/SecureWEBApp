@@ -40,19 +40,19 @@ $result=mysqli_query($db, $sql) or die('Error querying database.');
 if( mysqli_affected_rows($db)>0)
 {
 	echo "</br>";
-echo "Account updated successfully";
+echo "<h2>Account updated successfully</h2>";
 
  }
  else {
 	 echo "</br>";
-    echo "No modification done to profile" ;
+    echo "<h2>No modification done to profile</h2>" ;
 
 }
 
 }
 else
 {
-	echo "CSRF detected.. Get Out from here";
+	echo "<h2>CSRF detected.. Get the F* Out from here</h2>";
 }
 
 
