@@ -13,6 +13,7 @@ Try all the attacks of vulnerable application you will not able to exploit it...
 [Insert SQLI in Register process parameterized queries are used] 
 [Update SQLI in profile update , changing password  mysqli_real_escape_string() is used] 
 [Delete SQLI in Deleting account  mysqli_real_escape_string() is used] 
+[Blind SQLI in Forgot password prevented using mysqli_real_escape_string()]
 
 --> Clickjacking (Framebursting technique, X-frame options missing)
 [Framebursting is used in all vulnerable application pages which can be exploited using sandbox="allow-forms" ] 
