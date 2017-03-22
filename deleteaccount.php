@@ -46,25 +46,25 @@ $result=mysqli_query($db, $sql) or die('Error querying database.');
 
 if( mysqli_affected_rows($db)>0)
 {
-echo "Account Deleted successfully";
+echo "<h2>Account Deleted successfully</h2>";
 session_destroy();
 }
 else {
-	echo "Incorrect Password";
+	echo "<h2>Incorrect Password</h2>";
 }
 
 }
 
 else{
 	
-	echo "You are not authorized to delete other user ";
+	echo "<h2>You are not authorized to delete other user </h2>";
 }
 
 }
 
 else
 {
-	echo "CSRF detected.. Get Out from here";
+	echo "<h2>CSRF detected.. Get the F* Out from here</h2>";
 }
 mysqli_close($db);
 
