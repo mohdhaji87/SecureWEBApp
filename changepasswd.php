@@ -46,23 +46,23 @@ $result=mysqli_query($db, $sql) or die('Error querying database.');
 
 if( mysqli_affected_rows($db)>0)
 {
-echo "Password updated successfully";
+echo "<h2>Password updated successfully</h2>";
 }
 else {
-	echo "Incorrect Password";
+	echo "<h2>Incorrect Password</h2>";
 }
 
 }
 
 else{
 	
-	echo "You are not authorized to change other user password";
+	echo "<h2>You are not authorized to change other user password</h2>";
 }
 }
 
 else{
 	
-	echo "CSRF detected.. Get Out from here";
+	echo "<h2>CSRF detected.. Get the F* Out from here</h2>";
 }
 mysqli_close($db);
 
