@@ -25,12 +25,12 @@ echo "" . '<br />';
 
 if($query->execute()) {
 	
- echo 'sucessfully registerd as '.htmlentities($a).'<br />';
+ echo '<h2>sucessfully registerd as '.htmlentities($a).'<br /></h2>';
  
 }
 else
 {
-	echo 'Username is taken or registration error';
+	echo '<h2>Username is taken or registration error</h2>';
 }
 
 $query->close();
