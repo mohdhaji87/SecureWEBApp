@@ -5,6 +5,7 @@ header("X-Frame-Options: DENY");
 ?>
 
 <body>
+  <center>
   <h1> WEB Application Security </h1>
   <h2> Secure WEB Application </h2>
   
@@ -27,6 +28,8 @@ Password: <input type="password" name="passwd" value=""></br>
 
 </br>
 <a href="forgotpassword.html" >Forgot Password </a>
+</center>
+
 </body>
 </html>
 
