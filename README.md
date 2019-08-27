@@ -31,6 +31,8 @@ Try all the attacks of vulnerable application you will not able to exploit it...
 
 -->XSS
 [ user input enconding/sanitizaion . output also encoded with htmlentities() which is not prone to xss ]
+[Update htmlentities() function can be bypassed using either unicode or hexadecimal escape sequence 
+such as \x3c for < and \x3e for >  \x3d for = symbol so payload can be \x3c img src\x3dx onerror\x3dalert("T")\x3e  ]
 
 -->Local File Inclusion (LFI) : (While including TOS file)
 (Null byte may be used as bypass . We need to use whitelisting for complete elimination of vulnerability)
