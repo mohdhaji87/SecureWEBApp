@@ -35,3 +35,4 @@ Try all the attacks of vulnerable application you will not able to exploit it...
 
 -->Local File Inclusion (LFI) : (While including TOS file)
 (Null byte may be used as bypass . We need to use whitelisting for complete elimination of vulnerability)
+(Also we can use basename() and realpath() functions ,The basename() function returns only the filename part of a given path/filename: basename("../../../etc/passwd") = passwd. The realpath() function returns the canonicalized absolute pathname but only if the file exists and if the running script has executable permissions on all directories in the hierarchy: realpath("../../../etc/passwd") = /etc/passwd, but still it's possible to include the files in present directory , so we can keep this code in separate directory where non-senstive files are present)
