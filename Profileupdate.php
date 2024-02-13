@@ -52,7 +52,7 @@ echo "<h2>Account updated successfully</h2>";
 }
 else
 {
-	echo "<h2>CSRF detected.. Get the F* Out from here</h2>";
+	echo "<h2>CSRF detected.. Get Out from here</h2>";
 }
 
 
