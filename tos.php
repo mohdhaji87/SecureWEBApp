@@ -1,5 +1,6 @@
 <?php
 
-include($_GET['file'].".html"); 
+include($_GET['file'].".html");  
+//get file
 
 ?>
