@@ -3,7 +3,7 @@ include("config.php");
 session_start();
 
 header("X-Frame-Options: DENY");
-
+//y
 //get post parameters
 
 $user=mysqli_real_escape_string($db,$_POST['username']);
@@ -75,3 +75,4 @@ mysqli_close($db);
 <a href="/secure/settings.php" > <h3>Go back</h3> </a>
 </body>
 </html>
+
