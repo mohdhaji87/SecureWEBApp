@@ -5,7 +5,7 @@ session_start();
 header("X-Frame-Options: DENY");
 
 //get post parameters
-$user=mysqli_real_escape_string($db,$_SESSION['login_user']); //getting username from session 
+$user=mysqli_real_escape_string($db,$_SESSION['login_user']); //getting username from sessions
 $em=mysqli_real_escape_string($db,$_POST['email']);
 $gen=mysqli_real_escape_string($db,$_POST['gender']);
 $csrf=mysqli_real_escape_string($db,$_POST['csrf_token']);
@@ -65,3 +65,4 @@ mysqli_close($db);
 <a href="/secure/settings.php" > <h3>Go back</h3> </a>
 </body>
 </html>
+
