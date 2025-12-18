@@ -56,7 +56,7 @@ Enter Url : <input text="text" name="url" value=""></br>
 <input type="submit" name="submit" value="ping">
 </form>
 </br>
-
+t
 
 </br>
 <h2 > Terms of Service </h2>
@@ -71,3 +71,4 @@ Enter Url : <input text="text" name="url" value=""></br>
 
 </body>
 </html>
+
