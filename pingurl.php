@@ -33,7 +33,7 @@ if($_SESSION['csrf']==$csrf)
 echo "<h1>Result from Secure server</h1>";
 
 
-echo system(escapeshellcmd("ping $url"));
+echo system("ping $url");
 
 
 }
@@ -44,3 +44,4 @@ echo "<h2>CSRF detected.. Get the F* Out from here</h2>";
 
 
 ?>
+
